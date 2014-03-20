@@ -12,5 +12,9 @@ Str_rev.so- This contains the executable file for Pidgin plugin(I know github ha
 
 Xcplugin.c - This contains the source code for Xchat plugin which  when enabled, reads text from highlighted chat, and if the text contains three asterisk(***) , reverses the string and echoes it back.
 
-Xcplugin.so - This contains the executable file for Pidgin plugin
+Xcplugin.so - This contains the executable file for Pidgin plugin.
 
+Xchatpatch.txt - This is a patch file , for the latest xchat version source tarball present. The plugin is present in /xchat-2.8.8/plugins/ 
+This way the plugin source code can be compiled.
+
+pidginpatch.txt - This is a patch file , for the latest pidgin version source tarball. The plugin is present in /pidgin-2.10.9/libpurple/plugins/  .This way the plugin source code can be compiled.
